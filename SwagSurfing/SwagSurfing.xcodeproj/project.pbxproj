@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B239C71515766F8F0045C6D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B239C71415766F8F0045C6D3 /* UIKit.framework */; };
+		B239C71715766F8F0045C6D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B239C71615766F8F0045C6D3 /* Foundation.framework */; };
+		B239C71915766F8F0045C6D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B239C71815766F8F0045C6D3 /* CoreGraphics.framework */; };
+		B239C71F15766F8F0045C6D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B239C71D15766F8F0045C6D3 /* InfoPlist.strings */; };
+		B239C72115766F8F0045C6D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B239C72015766F8F0045C6D3 /* main.m */; };
+		B239C72515766F8F0045C6D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B239C72415766F8F0045C6D3 /* AppDelegate.m */; };
+		B239C72815766F900045C6D3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B239C72615766F8F0045C6D3 /* MainStoryboard_iPhone.storyboard */; };
+		B239C72B15766F900045C6D3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B239C72915766F900045C6D3 /* MainStoryboard_iPad.storyboard */; };
+		B239C72E15766F900045C6D3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B239C72D15766F900045C6D3 /* FirstViewController.m */; };
+		B239C73015766F900045C6D3 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B239C72F15766F900045C6D3 /* first.png */; };
+		B239C73215766F900045C6D3 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B239C73115766F900045C6D3 /* first@2x.png */; };
+		B239C73515766F900045C6D3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B239C73415766F900045C6D3 /* SecondViewController.m */; };
+		B239C73715766F900045C6D3 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B239C73615766F900045C6D3 /* second.png */; };
+		B239C73915766F900045C6D3 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B239C73815766F900045C6D3 /* second@2x.png */; };
+		B239C74115766F900045C6D3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B239C74015766F900045C6D3 /* SenTestingKit.framework */; };
+		B239C74215766F900045C6D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B239C71415766F8F0045C6D3 /* UIKit.framework */; };
+		B239C74315766F900045C6D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B239C71615766F8F0045C6D3 /* Foundation.framework */; };
+		B239C74B15766F900045C6D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B239C74915766F900045C6D3 /* InfoPlist.strings */; };
+		B239C74E15766F900045C6D3 /* SwagSurfingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B239C74D15766F900045C6D3 /* SwagSurfingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B239C74415766F900045C6D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B239C70715766F8F0045C6D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B239C70F15766F8F0045C6D3;
+			remoteInfo = SwagSurfing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B239C71015766F8F0045C6D3 /* SwagSurfing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwagSurfing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B239C71415766F8F0045C6D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B239C71615766F8F0045C6D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B239C71815766F8F0045C6D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B239C71C15766F8F0045C6D3 /* SwagSurfing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwagSurfing-Info.plist"; sourceTree = "<group>"; };
+		B239C71E15766F8F0045C6D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B239C72015766F8F0045C6D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B239C72215766F8F0045C6D3 /* SwagSurfing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwagSurfing-Prefix.pch"; sourceTree = "<group>"; };
+		B239C72315766F8F0045C6D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B239C72415766F8F0045C6D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B239C72715766F900045C6D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B239C72A15766F900045C6D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B239C72C15766F900045C6D3 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B239C72D15766F900045C6D3 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B239C72F15766F900045C6D3 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B239C73115766F900045C6D3 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B239C73315766F900045C6D3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B239C73415766F900045C6D3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B239C73615766F900045C6D3 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B239C73815766F900045C6D3 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B239C73F15766F900045C6D3 /* SwagSurfingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwagSurfingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B239C74015766F900045C6D3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B239C74815766F900045C6D3 /* SwagSurfingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwagSurfingTests-Info.plist"; sourceTree = "<group>"; };
+		B239C74A15766F900045C6D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B239C74C15766F900045C6D3 /* SwagSurfingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwagSurfingTests.h; sourceTree = "<group>"; };
+		B239C74D15766F900045C6D3 /* SwagSurfingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwagSurfingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B239C70D15766F8F0045C6D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B239C71515766F8F0045C6D3 /* UIKit.framework in Frameworks */,
+				B239C71715766F8F0045C6D3 /* Foundation.framework in Frameworks */,
+				B239C71915766F8F0045C6D3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B239C73B15766F900045C6D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B239C74115766F900045C6D3 /* SenTestingKit.framework in Frameworks */,
+				B239C74215766F900045C6D3 /* UIKit.framework in Frameworks */,
+				B239C74315766F900045C6D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B239C70515766F8F0045C6D3 = {
+			isa = PBXGroup;
+			children = (
+				B239C71A15766F8F0045C6D3 /* SwagSurfing */,
+				B239C74615766F900045C6D3 /* SwagSurfingTests */,
+				B239C71315766F8F0045C6D3 /* Frameworks */,
+				B239C71115766F8F0045C6D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B239C71115766F8F0045C6D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B239C71015766F8F0045C6D3 /* SwagSurfing.app */,
+				B239C73F15766F900045C6D3 /* SwagSurfingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B239C71315766F8F0045C6D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B239C71415766F8F0045C6D3 /* UIKit.framework */,
+				B239C71615766F8F0045C6D3 /* Foundation.framework */,
+				B239C71815766F8F0045C6D3 /* CoreGraphics.framework */,
+				B239C74015766F900045C6D3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B239C71A15766F8F0045C6D3 /* SwagSurfing */ = {
+			isa = PBXGroup;
+			children = (
+				B239C72315766F8F0045C6D3 /* AppDelegate.h */,
+				B239C72415766F8F0045C6D3 /* AppDelegate.m */,
+				B239C72615766F8F0045C6D3 /* MainStoryboard_iPhone.storyboard */,
+				B239C72915766F900045C6D3 /* MainStoryboard_iPad.storyboard */,
+				B239C72C15766F900045C6D3 /* FirstViewController.h */,
+				B239C72D15766F900045C6D3 /* FirstViewController.m */,
+				B239C72F15766F900045C6D3 /* first.png */,
+				B239C73115766F900045C6D3 /* first@2x.png */,
+				B239C73315766F900045C6D3 /* SecondViewController.h */,
+				B239C73415766F900045C6D3 /* SecondViewController.m */,
+				B239C73615766F900045C6D3 /* second.png */,
+				B239C73815766F900045C6D3 /* second@2x.png */,
+				B239C71B15766F8F0045C6D3 /* Supporting Files */,
+			);
+			path = SwagSurfing;
+			sourceTree = "<group>";
+		};
+		B239C71B15766F8F0045C6D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B239C71C15766F8F0045C6D3 /* SwagSurfing-Info.plist */,
+				B239C71D15766F8F0045C6D3 /* InfoPlist.strings */,
+				B239C72015766F8F0045C6D3 /* main.m */,
+				B239C72215766F8F0045C6D3 /* SwagSurfing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B239C74615766F900045C6D3 /* SwagSurfingTests */ = {
+			isa = PBXGroup;
+			children = (
+				B239C74C15766F900045C6D3 /* SwagSurfingTests.h */,
+				B239C74D15766F900045C6D3 /* SwagSurfingTests.m */,
+				B239C74715766F900045C6D3 /* Supporting Files */,
+			);
+			path = SwagSurfingTests;
+			sourceTree = "<group>";
+		};
+		B239C74715766F900045C6D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B239C74815766F900045C6D3 /* SwagSurfingTests-Info.plist */,
+				B239C74915766F900045C6D3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B239C70F15766F8F0045C6D3 /* SwagSurfing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B239C75115766F900045C6D3 /* Build configuration list for PBXNativeTarget "SwagSurfing" */;
+			buildPhases = (
+				B239C70C15766F8F0045C6D3 /* Sources */,
+				B239C70D15766F8F0045C6D3 /* Frameworks */,
+				B239C70E15766F8F0045C6D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwagSurfing;
+			productName = SwagSurfing;
+			productReference = B239C71015766F8F0045C6D3 /* SwagSurfing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B239C73E15766F900045C6D3 /* SwagSurfingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B239C75415766F900045C6D3 /* Build configuration list for PBXNativeTarget "SwagSurfingTests" */;
+			buildPhases = (
+				B239C73A15766F900045C6D3 /* Sources */,
+				B239C73B15766F900045C6D3 /* Frameworks */,
+				B239C73C15766F900045C6D3 /* Resources */,
+				B239C73D15766F900045C6D3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B239C74515766F900045C6D3 /* PBXTargetDependency */,
+			);
+			name = SwagSurfingTests;
+			productName = SwagSurfingTests;
+			productReference = B239C73F15766F900045C6D3 /* SwagSurfingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B239C70715766F8F0045C6D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developmental Applications";
+			};
+			buildConfigurationList = B239C70A15766F8F0045C6D3 /* Build configuration list for PBXProject "SwagSurfing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B239C70515766F8F0045C6D3;
+			productRefGroup = B239C71115766F8F0045C6D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B239C70F15766F8F0045C6D3 /* SwagSurfing */,
+				B239C73E15766F900045C6D3 /* SwagSurfingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B239C70E15766F8F0045C6D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B239C71F15766F8F0045C6D3 /* InfoPlist.strings in Resources */,
+				B239C72815766F900045C6D3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B239C72B15766F900045C6D3 /* MainStoryboard_iPad.storyboard in Resources */,
+				B239C73015766F900045C6D3 /* first.png in Resources */,
+				B239C73215766F900045C6D3 /* first@2x.png in Resources */,
+				B239C73715766F900045C6D3 /* second.png in Resources */,
+				B239C73915766F900045C6D3 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B239C73C15766F900045C6D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B239C74B15766F900045C6D3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B239C73D15766F900045C6D3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B239C70C15766F8F0045C6D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B239C72115766F8F0045C6D3 /* main.m in Sources */,
+				B239C72515766F8F0045C6D3 /* AppDelegate.m in Sources */,
+				B239C72E15766F900045C6D3 /* FirstViewController.m in Sources */,
+				B239C73515766F900045C6D3 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B239C73A15766F900045C6D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B239C74E15766F900045C6D3 /* SwagSurfingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B239C74515766F900045C6D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B239C70F15766F8F0045C6D3 /* SwagSurfing */;
+			targetProxy = B239C74415766F900045C6D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B239C71D15766F8F0045C6D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B239C71E15766F8F0045C6D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B239C72615766F8F0045C6D3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B239C72715766F900045C6D3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B239C72915766F900045C6D3 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B239C72A15766F900045C6D3 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B239C74915766F900045C6D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B239C74A15766F900045C6D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B239C74F15766F900045C6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B239C75015766F900045C6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B239C75215766F900045C6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwagSurfing/SwagSurfing-Prefix.pch";
+				INFOPLIST_FILE = "SwagSurfing/SwagSurfing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B239C75315766F900045C6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwagSurfing/SwagSurfing-Prefix.pch";
+				INFOPLIST_FILE = "SwagSurfing/SwagSurfing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B239C75515766F900045C6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwagSurfing.app/SwagSurfing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwagSurfing/SwagSurfing-Prefix.pch";
+				INFOPLIST_FILE = "SwagSurfingTests/SwagSurfingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B239C75615766F900045C6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwagSurfing.app/SwagSurfing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwagSurfing/SwagSurfing-Prefix.pch";
+				INFOPLIST_FILE = "SwagSurfingTests/SwagSurfingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B239C70A15766F8F0045C6D3 /* Build configuration list for PBXProject "SwagSurfing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B239C74F15766F900045C6D3 /* Debug */,
+				B239C75015766F900045C6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B239C75115766F900045C6D3 /* Build configuration list for PBXNativeTarget "SwagSurfing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B239C75215766F900045C6D3 /* Debug */,
+				B239C75315766F900045C6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B239C75415766F900045C6D3 /* Build configuration list for PBXNativeTarget "SwagSurfingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B239C75515766F900045C6D3 /* Debug */,
+				B239C75615766F900045C6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B239C70715766F8F0045C6D3 /* Project object */;
+}
